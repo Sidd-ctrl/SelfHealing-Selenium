@@ -1,0 +1,15 @@
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+bin/
+obj/
+out/
+TestResults/
+*.log
+
+# Environment / secrets
+.env
+appsettings.Development.json
+appsettings.Local.json

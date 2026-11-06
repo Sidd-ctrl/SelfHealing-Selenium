@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Practice Form - Mutated Variant</title>
+</head>
+<body>
+  <main>
+    <h1>Registration</h1>
+    <form>
+      <section>
+        <div class="row">
+          <div class="col">
+            <span class="hint">Middle Name (optional)</span>
+            <input type="text" id="mid_name_99" name="middleName" placeholder="Middle name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div aria-label="First Name">
+              <input type="text" id="x-field-42" name="user_given_name" placeholder="Your first name">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <span>Last Name</span>
+            <input type="text" id="ln" name="lastName" placeholder="Last name">
+          </div>
+        </div>
+      </section>
+      <section>
+        <fieldset>
+          <legend>Gender</legend>
+          <label><input type="radio" name="sex" value="M"> Male</label>
+          <label><input type="radio" name="sex" value="F"> Female</label>
+          <label><input type="radio" name="sex" value="O"> Other</label>
+        </fieldset>
+      </section>
+      <section>
+        <div>
+          <label id="state-label">State</label>
+          <select aria-labelledby="state-label" id="region-select" name="regionSelect">
+            <option value="">-- choose --</option>
+            <option value="California">California</option>
+            <option value="Texas">Texas</option>
+            <option value="New York">New York</option>
+          </select>
+        </div>
+      </section>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up - Restructured Variant</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="inner">
+      <h2>Sign Up</h2>
+      <form novalidate>
+        <table>
+          <tr>
+            <td><label>Country</label></td>
+            <td>
+              <select id="country" name="country">
+                <option value="US">United States</option>
+                <option value="IN">India</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="st">State / Province</label></td>
+            <td>
+              <select id="st" name="state_province">
+                <option value="">Select</option>
+                <option value="California">California</option>
+                <option value="Texas">Texas</option>
+                <option value="New York">New York</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Gender</label></td>
+            <td>
+              <input type="radio" id="g1" name="genderOpt" value="Male"><label for="g1">Male</label>
+              <input type="radio" id="g2" name="genderOpt" value="Female"><label for="g2">Female</label>
+              <input type="radio" id="g3" name="genderOpt" value="Other"><label for="g3">Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label>First Name</label></td>
+            <td><input type="text" name="fname_txt" id="given-name-input"></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
